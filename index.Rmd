@@ -37,4 +37,17 @@ fjdkalfjadk;
 *** .explanation
 afjdkaljfkal;j
 
+
 ---
+
+## Slide Title
+
+This is a simple slide to illustrate the use of speaker notes.
+
+*** pnotes
+
+I need to focus on the following
+
+- Point 1
+- Point 2
+- Point 3
