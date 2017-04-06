@@ -13,7 +13,24 @@ assets      : {assets: ../../assets}
 license     : by-nc-sa
 ---
 
----
+<style>
+.ninety {
+  font-size: 90%;
+   }
+
+.eightyfive {
+   font-size: 85%;
+   }
+.ten {
+   font-size: 10%;
+}
+.modal-body{height: 700px;}
+.modal-body p {font-size: 1.3em}
+
+</style>
+
+--- .ten
+
 ## 本日の内容
 
 >-  病気と食事・栄養素
@@ -24,30 +41,23 @@ license     : by-nc-sa
     - 日本人の食事摂取基準
     - 国民健康・栄養調査
 
---- &radio
+--- .small &radio
 
 
-食事バランスガイドのイラストの説明について
-![](syokujibalance.jpg)
-fjdkalfjadk;
+食事バランスガイドのイラストを次に示す．説明として，**適切**なのはどれか？
+![](img/syokujibalance.jpg)
 
-1. _ddd_
-2. gerald
+1. 「糖尿病患者の献立がわかります」
+2. 「食材を無駄にしないために使います」
+3. 「検査のための食事の選択に利用します」
+4. 「日常の活動に見合った運動がわかります」
+5. _「何をどれだけ食べたらよいか示しています」_
+
 
 *** .explanation
-afjdkaljfkal;j
+「食事の」
 
 
 ---
 
-## Slide Title
-
-This is a simple slide to illustrate the use of speaker notes.
-
-*** pnotes
-
-I need to focus on the following
-
-- Point 1
-- Point 2
-- Point 3
+## **栄養素欠乏症 <br>Nutritional Deficiency**
