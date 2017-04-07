@@ -2,7 +2,7 @@
 title       : "栄養疫学"
 subtitle    : "Nutritional Epidemiology"
 author      : "王　超辰 | Chaochen Wang"
-job         : "https://winterwang.github.io"
+job         : "https://winterwang.github.io/slides417"
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : solarized_light      #
@@ -28,9 +28,12 @@ license     : by-nc-sa
 
 
 
---- .segue bg:black
+--- .segue 
 
-# 栄養素欠乏症 <br>Nutritional Deficiency
+# 栄養素欠乏症 
+
+
+
 
 --- &radio
 **国試105G8** 栄養素とその欠乏によって起こる病態との組み合わせで正しいのはどれか．
