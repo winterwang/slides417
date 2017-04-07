@@ -155,9 +155,9 @@ DG          | 摂取量がDGに達しているか、示された範囲内にあ�
 2. EER(estimated energy requirement): 推定エネルギー必要量(kcal/日)<br> $=$ 基礎代謝基準値 $\times$ 基準体重 $\times$ 身体活動レベル <br> $=21.5\times[22\times1.65\times1.65]\times1.50$
 
 
---- 
+---
 
-## interactive console 
+## 総エネルギー摂取量(kcal/d) 1995-2015
 
 <div align="center">
 ```{r, results='asis', echo=FALSE, warning=FALSE, message=FALSE, fig.align='center'}
@@ -175,4 +175,37 @@ print(M1)
 ```
 </div>
 
+
 ---
+
+## 蛋白質摂取量(g/d) 1995-2015
+
+<div align="center">
+```{r, results='asis', echo=FALSE, warning=FALSE, message=FALSE, fig.align='center'}
+
+protein <- read_csv("~/Dropbox/slides/dat/protein.csv")
+Pro <- gather(protein, Year, Protein, 2:22)
+Pro$Year <- as.numeric(Pro$Year)
+Pro$Protein <- as.numeric(Pro$Protein)
+
+M2 <- gvisMotionChart(Pro, idvar='X1', timevar = 'Year')
+print(M2)
+```
+</div>
+
+
+---
+
+## 三大栄養素エネルギー比率年次推移
+<div align="center">
+```{r, results='asis', echo=FALSE, warning=FALSE, message=FALSE, fig.align='center'}
+EnergySource <- read_csv("~/Dropbox/slides/dat/EnergySource.csv",
+     col_types = cols(carbon = col_number(), Year = col_character(),
+         fat = col_number(), protein = col_number()))
+Bar <- gvisBarChart(EnergySource[EnergySource$X1=="All",], xvar="Year", yvar=c("protein","carbon", "fat"),
+                     options=list(isStacked='percent',width=800, height=500,
+                                  bar="{groupWidth:'80%'}",
+                                  chartArea= "{'width': '70%', 'height': '95%'}"))
+print(Bar)
+```
+</div>
