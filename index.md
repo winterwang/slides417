@@ -153,3 +153,441 @@ DG          | 摂取量がDGに達しているか、示された範囲内にあ�
 *** .explanation
 1. ある個人における1日のエネルギー消費量を推定し，それに基づき必要な摂取エネルギー量（推定エネルギー必要量）を提示するという問題設定である．
 2. EER(estimated energy requirement): 推定エネルギー必要量(kcal/日)<br> $=$ 基礎代謝基準値 $\times$ 基準体重 $\times$ 身体活動レベル <br> $=21.5\times[22\times1.65\times1.65]\times1.50$
+
+
+--- 
+
+## interactive console 
+
+<div align="center">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>MotionChartID29b64a311e1c</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<style type="text/css">
+body {
+  color: #444444;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 75%;
+  }
+  a {
+  color: #4D87C7;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+ <!-- MotionChart generated in R 3.3.3 by googleVis 0.6.2 package -->
+<!-- Fri Apr  7 15:48:30 2017 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataMotionChartID29b64a311e1c () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"ALL",
+1995,
+2042
+],
+[
+"Males",
+1995,
+2270
+],
+[
+"Females",
+1995,
+1835
+],
+[
+"ALL",
+1996,
+2002
+],
+[
+"Males",
+1996,
+2203
+],
+[
+"Females",
+1996,
+1821
+],
+[
+"ALL",
+1997,
+2007
+],
+[
+"Males",
+1997,
+2221
+],
+[
+"Females",
+1997,
+1817
+],
+[
+"ALL",
+1998,
+1979
+],
+[
+"Males",
+1998,
+2185
+],
+[
+"Females",
+1998,
+1791
+],
+[
+"ALL",
+1999,
+1967
+],
+[
+"Males",
+1999,
+2175
+],
+[
+"Females",
+1999,
+1782
+],
+[
+"ALL",
+2000,
+1948
+],
+[
+"Males",
+2000,
+2152
+],
+[
+"Females",
+2000,
+1764
+],
+[
+"ALL",
+2001,
+1954
+],
+[
+"Males",
+2001,
+2163
+],
+[
+"Females",
+2001,
+1769
+],
+[
+"ALL",
+2002,
+1930
+],
+[
+"Males",
+2002,
+2141
+],
+[
+"Females",
+2002,
+1745
+],
+[
+"ALL",
+2003,
+1920
+],
+[
+"Males",
+2003,
+2138
+],
+[
+"Females",
+2003,
+1724
+],
+[
+"ALL",
+2004,
+1902
+],
+[
+"Males",
+2004,
+2105
+],
+[
+"Females",
+2004,
+1721
+],
+[
+"ALL",
+2005,
+1904
+],
+[
+"Males",
+2005,
+2110
+],
+[
+"Females",
+2005,
+1722
+],
+[
+"ALL",
+2006,
+1891
+],
+[
+"Males",
+2006,
+2095
+],
+[
+"Females",
+2006,
+1709
+],
+[
+"ALL",
+2007,
+1898
+],
+[
+"Males",
+2007,
+2114
+],
+[
+"Females",
+2007,
+1708
+],
+[
+"ALL",
+2008,
+1867
+],
+[
+"Males",
+2008,
+2077
+],
+[
+"Females",
+2008,
+1682
+],
+[
+"ALL",
+2009,
+1861
+],
+[
+"Males",
+2009,
+2073
+],
+[
+"Females",
+2009,
+1677
+],
+[
+"ALL",
+2010,
+1849
+],
+[
+"Males",
+2010,
+2058
+],
+[
+"Females",
+2010,
+1663
+],
+[
+"ALL",
+2011,
+1840
+],
+[
+"Males",
+2011,
+2047
+],
+[
+"Females",
+2011,
+1660
+],
+[
+"ALL",
+2012,
+1874
+],
+[
+"Males",
+2012,
+2089
+],
+[
+"Females",
+2012,
+1683
+],
+[
+"ALL",
+2013,
+1873
+],
+[
+"Males",
+2013,
+2095
+],
+[
+"Females",
+2013,
+1674
+],
+[
+"ALL",
+2014,
+1863
+],
+[
+"Males",
+2014,
+2094
+],
+[
+"Females",
+2014,
+1658
+],
+[
+"ALL",
+2015,
+1889
+],
+[
+"Males",
+2015,
+2110
+],
+[
+"Females",
+2015,
+1694
+] 
+];
+data.addColumn('string','X1');
+data.addColumn('number','Year');
+data.addColumn('number','Energy');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartMotionChartID29b64a311e1c() {
+var data = gvisDataMotionChartID29b64a311e1c();
+var options = {};
+options["width"] = 600;
+options["height"] = 500;
+options["state"] = "";
+
+    var chart = new google.visualization.MotionChart(
+    document.getElementById('MotionChartID29b64a311e1c')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "motionchart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartMotionChartID29b64a311e1c);
+})();
+function displayChartMotionChartID29b64a311e1c() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID29b64a311e1c"></script>
+ 
+<!-- divChart -->
+  
+<div id="MotionChartID29b64a311e1c" 
+  style="width: 600; height: 500;">
+</div>
+ <div><span>Data: EI &#8226; Chart ID: <a href="Chart_MotionChartID29b64a311e1c.html">MotionChartID29b64a311e1c</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.2</a></span><br /> 
+<!-- htmlFooter -->
+<span> 
+  R version 3.3.3 (2017-03-06) 
+  &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; <a href="https://google-developers.appspot.com/chart/interactive/docs/gallery/motionchart">Documentation and Data Policy</a>
+</span></div>
+</body>
+</html>
+</div>
+
+---

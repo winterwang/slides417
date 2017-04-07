@@ -72,7 +72,6 @@ body {
 }
 
 .segue h1 {
-  text-align: center;
   font-weight: 600;
   font-size: 60px !important;
   line-height: 60px !important;
@@ -81,7 +80,6 @@ body {
 }
 
 .title-slide hgroup h1 {
-  text-align: center;
   font-size: 65px;
   line-height: 1.4;
   letter-spacing: -3px;

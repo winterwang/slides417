@@ -153,3 +153,26 @@ DG          | 摂取量がDGに達しているか、示された範囲内にあ�
 *** .explanation
 1. ある個人における1日のエネルギー消費量を推定し，それに基づき必要な摂取エネルギー量（推定エネルギー必要量）を提示するという問題設定である．
 2. EER(estimated energy requirement): 推定エネルギー必要量(kcal/日)<br> $=$ 基礎代謝基準値 $\times$ 基準体重 $\times$ 身体活動レベル <br> $=21.5\times[22\times1.65\times1.65]\times1.50$
+
+
+--- 
+
+## interactive console 
+
+<div align="center">
+```{r, results='asis', echo=FALSE, warning=FALSE, message=FALSE, fig.align='center'}
+library(readr)
+library(tidyr)
+library(dplyr)
+EnergyIntake <- read_csv("~/Dropbox/slides/dat/EnergyIntake.csv")
+EI <- gather(EnergyIntake, Year, Energy, 2:22)
+EI$Year <- as.numeric(EI$Year)
+EI$Energy <- as.numeric(EI$Energy)
+library(googleVis)
+
+M1 <- gvisMotionChart(EI, idvar='X1', timevar = 'Year')
+print(M1)
+```
+</div>
+
+---
