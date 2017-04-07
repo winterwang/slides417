@@ -32,6 +32,40 @@ license     : by-nc-sa
 
 # 栄養素欠乏症 <br>Nutritional Deficiency
 
+--- &radio
+**国試105G8** 栄養素とその欠乏によって起こる病態との組み合わせで正しいのはどれか．
+
+1. マグネシウム --- 味覚障害
+2. ビタミンA --- ペラグラ
+3. _ビタミンC --- 出血傾向_
+4. カルシウム --- 貧血
+5. 亜鉛 --- 夜盲
+
+*** .explanation
+1. 味覚障害は亜鉛欠乏によって起こる．
+2. ペラグラはナイアシン欠乏によって起こる．
+3. ビタミンCはコラーゲンと血管壁の結合組織を作るのに関与する．したがって，その欠乏により壊血病，すなわち血管壁の脆弱化が見られやすくなる．
+4. 貧血は，鉄（小球性低色素性貧血）やビタミンB_12欠乏症（巨赤芽球性貧血）によって起こる．
+5. 夜盲症はビタミンA欠乏によって起こる．
+
+--- &radio
+**国試100G63:** 三大栄養素の過剰摂取が関係するのはどれか．
+
+1. _脂質異常症_
+2. Ⅰ型糖尿病
+3. 巨赤芽球性貧血
+4. 高カルシウム血症
+5. 甲状腺機能亢進症
+
+*** .hint
+三大栄養素は，蛋白質，脂質，炭水化物（糖）であり，主栄養素(macronutrient)とも呼ばれる．
+
+*** .explanation
+1. ◯ 特に飽和脂肪酸，コレステロールの過剰摂取は脂質異常症の原因と言われる．
+2. ✗ Ⅱ型糖尿病は，エネルギーや脂質の過剰摂取などがあるが，Ⅰ型糖尿病は自己免疫性と考えられている．
+3. ✗ 主な原因はビタミンB_12や葉酸の欠乏である．
+4. ✗ 副甲状腺機能亢進症，悪性腫瘍に伴うもの，サルコイドーシスなどの他に，栄養関連ではビタミンD過剰症が原因となる．
+5. ✗ ヨード欠乏は甲状腺機能低下の原因となる．また，ヨードが欠乏している地域において，急にヨードが行き渡るようになると甲状腺機能亢進症が多発することが知られている．
 
 
 
@@ -39,16 +73,15 @@ license     : by-nc-sa
 
 
 **国試108E7:** 食事バランスガイドのイラストを次に示す．説明として，**適切**なのはどれか？
-
+<div class="centered">
+<IMG SRC="img/syokujibalance.jpg" style = "width:600px;height:300px">
+</div>
 1. 「糖尿病患者の献立がわかります」
 2. 「食材を無駄にしないために使います」
 3. 「検査のための食事の選択に利用します」
 4. 「日常の活動に見合った運動がわかります」
 5. _「何をどれだけ食べたらよいか示しています」_
 
-<div class="centered">
-<IMG SRC="img/syokujibalance.jpg" style = "width:600px;height:300px">
-</div>
 
 *** .explanation
 1. ✗特定の疾患の患者に対する指導を目的としたものではない，糖尿病では，エネルギー管理が重要であることから，[「糖尿病食事療法のための食品交換表」](https://www.amazon.co.jp/%E7%B3%96%E5%B0%BF%E7%97%85%E9%A3%9F%E4%BA%8B%E7%99%82%E6%B3%95%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E9%A3%9F%E5%93%81%E4%BA%A4%E6%8F%9B%E8%A1%A8-%E7%AC%AC7%E7%89%88-%E6%97%A5%E6%9C%AC%E7%B3%96%E5%B0%BF%E7%97%85%E5%AD%A6%E4%BC%9A/dp/4830660465)などが用いられる．
@@ -196,13 +229,84 @@ print(M2)
 
 ---
 
-## 三大栄養素エネルギー比率年次推移
+## 脂質摂取量(g/d) 1995-2015
+
+<div align="center">
+```{r, results='asis', echo=FALSE, warning=FALSE, message=FALSE, fig.align='center'}
+
+Fat <- read_csv("~/Dropbox/slides/dat/FatIntake.csv")
+Fat <- gather(Fat, Year, fat, 2:22)
+Fat$Year <- as.numeric(Fat$Year)
+Fat$fat <- as.numeric(Fat$fat)
+
+M3 <- gvisMotionChart(Fat, idvar='X1', timevar = 'Year')
+print(M3)
+```
+</div>
+
+
+
+---
+
+## 炭水化物摂取量(g/d) 1995-2015
+
+<div align="center">
+```{r, results='asis', echo=FALSE, warning=FALSE, message=FALSE, fig.align='center'}
+
+Carbon <- read_csv("~/Dropbox/slides/dat/carbonintake.csv")
+Carbon <- gather(Carbon, Year, carbon, 2:22)
+Carbon$Year <- as.numeric(Carbon$Year)
+Carbon$carbon <- as.numeric(Carbon$carbon)
+
+M2 <- gvisMotionChart(Carbon, idvar='X1', timevar = 'Year')
+print(M2)
+```
+</div>
+
+
+---
+
+## 三大栄養素エネルギー比率(全体)
 <div align="center">
 ```{r, results='asis', echo=FALSE, warning=FALSE, message=FALSE, fig.align='center'}
 EnergySource <- read_csv("~/Dropbox/slides/dat/EnergySource.csv",
      col_types = cols(carbon = col_number(), Year = col_character(),
          fat = col_number(), protein = col_number()))
 Bar <- gvisBarChart(EnergySource[EnergySource$X1=="All",], xvar="Year", yvar=c("protein","carbon", "fat"),
+                     options=list(isStacked='percent',width=800, height=500,
+                                  bar="{groupWidth:'80%'}",
+                                  chartArea= "{'width': '70%', 'height': '95%'}"))
+print(Bar)
+```
+</div>
+
+
+
+---
+
+## 三大栄養素エネルギー比率(男性)
+<div align="center">
+```{r, results='asis', echo=FALSE, warning=FALSE, message=FALSE, fig.align='center'}
+EnergySource <- read_csv("~/Dropbox/slides/dat/EnergySource.csv",
+     col_types = cols(carbon = col_number(), Year = col_character(),
+         fat = col_number(), protein = col_number()))
+Bar <- gvisBarChart(EnergySource[EnergySource$X1=="Men",], xvar="Year", yvar=c("protein","carbon", "fat"),
+                     options=list(isStacked='percent',width=800, height=500,
+                                  bar="{groupWidth:'80%'}",
+                                  chartArea= "{'width': '70%', 'height': '95%'}"))
+print(Bar)
+```
+</div>
+
+---
+
+## 三大栄養素エネルギー比率(女性)
+<div align="center">
+```{r, results='asis', echo=FALSE, warning=FALSE, message=FALSE, fig.align='center'}
+EnergySource <- read_csv("~/Dropbox/slides/dat/EnergySource.csv",
+     col_types = cols(carbon = col_number(), Year = col_character(),
+         fat = col_number(), protein = col_number()))
+Bar <- gvisBarChart(EnergySource[EnergySource$X1=="Women",], xvar="Year", yvar=c("protein","carbon", "fat"),
                      options=list(isStacked='percent',width=800, height=500,
                                   bar="{groupWidth:'80%'}",
                                   chartArea= "{'width': '70%', 'height': '95%'}"))

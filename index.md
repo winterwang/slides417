@@ -32,6 +32,40 @@ license     : by-nc-sa
 
 # 栄養素欠乏症 <br>Nutritional Deficiency
 
+--- &radio
+**国試105G8** 栄養素とその欠乏によって起こる病態との組み合わせで正しいのはどれか．
+
+1. マグネシウム --- 味覚障害
+2. ビタミンA --- ペラグラ
+3. _ビタミンC --- 出血傾向_
+4. カルシウム --- 貧血
+5. 亜鉛 --- 夜盲
+
+*** .explanation
+1. 味覚障害は亜鉛欠乏によって起こる．
+2. ペラグラはナイアシン欠乏によって起こる．
+3. ビタミンCはコラーゲンと血管壁の結合組織を作るのに関与する．したがって，その欠乏により壊血病，すなわち血管壁の脆弱化が見られやすくなる．
+4. 貧血は，鉄（小球性低色素性貧血）やビタミンB_12欠乏症（巨赤芽球性貧血）によって起こる．
+5. 夜盲症はビタミンA欠乏によって起こる．
+
+--- &radio
+**国試100G63:** 三大栄養素の過剰摂取が関係するのはどれか．
+
+1. _脂質異常症_
+2. Ⅰ型糖尿病
+3. 巨赤芽球性貧血
+4. 高カルシウム血症
+5. 甲状腺機能亢進症
+
+*** .hint
+三大栄養素は，蛋白質，脂質，炭水化物（糖）であり，主栄養素(macronutrient)とも呼ばれる．
+
+*** .explanation
+1. ◯ 特に飽和脂肪酸，コレステロールの過剰摂取は脂質異常症の原因と言われる．
+2. ✗ Ⅱ型糖尿病は，エネルギーや脂質の過剰摂取などがあるが，Ⅰ型糖尿病は自己免疫性と考えられている．
+3. ✗ 主な原因はビタミンB_12や葉酸の欠乏である．
+4. ✗ 副甲状腺機能亢進症，悪性腫瘍に伴うもの，サルコイドーシスなどの他に，栄養関連ではビタミンD過剰症が原因となる．
+5. ✗ ヨード欠乏は甲状腺機能低下の原因となる．また，ヨードが欠乏している地域において，急にヨードが行き渡るようになると甲状腺機能亢進症が多発することが知られている．
 
 
 
@@ -39,16 +73,15 @@ license     : by-nc-sa
 
 
 **国試108E7:** 食事バランスガイドのイラストを次に示す．説明として，**適切**なのはどれか？
-
+<div class="centered">
+<IMG SRC="img/syokujibalance.jpg" style = "width:600px;height:300px">
+</div>
 1. 「糖尿病患者の献立がわかります」
 2. 「食材を無駄にしないために使います」
 3. 「検査のための食事の選択に利用します」
 4. 「日常の活動に見合った運動がわかります」
 5. _「何をどれだけ食べたらよいか示しています」_
 
-<div class="centered">
-<IMG SRC="img/syokujibalance.jpg" style = "width:600px;height:300px">
-</div>
 
 *** .explanation
 1. ✗特定の疾患の患者に対する指導を目的としたものではない，糖尿病では，エネルギー管理が重要であることから，[「糖尿病食事療法のための食品交換表」](https://www.amazon.co.jp/%E7%B3%96%E5%B0%BF%E7%97%85%E9%A3%9F%E4%BA%8B%E7%99%82%E6%B3%95%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E9%A3%9F%E5%93%81%E4%BA%A4%E6%8F%9B%E8%A1%A8-%E7%AC%AC7%E7%89%88-%E6%97%A5%E6%9C%AC%E7%B3%96%E5%B0%BF%E7%97%85%E5%AD%A6%E4%BC%9A/dp/4830660465)などが用いられる．
@@ -164,7 +197,7 @@ DG          | 摂取量がDGに達しているか、示された範囲内にあ�
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>MotionChartID29b6139d6891</title>
+<title>MotionChartID3b1e205e01a1</title>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <style type="text/css">
 body {
@@ -180,14 +213,14 @@ body {
 </head>
 <body>
  <!-- MotionChart generated in R 3.3.3 by googleVis 0.6.2 package -->
-<!-- Fri Apr  7 17:22:32 2017 -->
+<!-- Fri Apr  7 18:59:35 2017 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataMotionChartID29b6139d6891 () {
+function gvisDataMotionChartID3b1e205e01a1 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -515,15 +548,15 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartMotionChartID29b6139d6891() {
-var data = gvisDataMotionChartID29b6139d6891();
+function drawChartMotionChartID3b1e205e01a1() {
+var data = gvisDataMotionChartID3b1e205e01a1();
 var options = {};
 options["width"] = 600;
 options["height"] = 500;
 options["state"] = "";
 
     var chart = new google.visualization.MotionChart(
-    document.getElementById('MotionChartID29b6139d6891')
+    document.getElementById('MotionChartID3b1e205e01a1')
     );
     chart.draw(data,options);
     
@@ -547,9 +580,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartMotionChartID29b6139d6891);
+callbacks.push(drawChartMotionChartID3b1e205e01a1);
 })();
-function displayChartMotionChartID29b6139d6891() {
+function displayChartMotionChartID3b1e205e01a1() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -573,14 +606,14 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID29b6139d6891"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID3b1e205e01a1"></script>
  
 <!-- divChart -->
   
-<div id="MotionChartID29b6139d6891" 
+<div id="MotionChartID3b1e205e01a1" 
   style="width: 600; height: 500;">
 </div>
- <div><span>Data: EI &#8226; Chart ID: <a href="Chart_MotionChartID29b6139d6891.html">MotionChartID29b6139d6891</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.2</a></span><br /> 
+ <div><span>Data: EI &#8226; Chart ID: <a href="Chart_MotionChartID3b1e205e01a1.html">MotionChartID3b1e205e01a1</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.2</a></span><br /> 
 <!-- htmlFooter -->
 <span> 
   R version 3.3.3 (2017-03-06) 
@@ -600,7 +633,7 @@ callbacks.shift()();
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>MotionChartID29b61a046d2c</title>
+<title>MotionChartID3b1e206b2bc3</title>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <style type="text/css">
 body {
@@ -616,14 +649,14 @@ body {
 </head>
 <body>
  <!-- MotionChart generated in R 3.3.3 by googleVis 0.6.2 package -->
-<!-- Fri Apr  7 17:22:32 2017 -->
+<!-- Fri Apr  7 18:59:35 2017 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataMotionChartID29b61a046d2c () {
+function gvisDataMotionChartID3b1e206b2bc3 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -951,15 +984,15 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartMotionChartID29b61a046d2c() {
-var data = gvisDataMotionChartID29b61a046d2c();
+function drawChartMotionChartID3b1e206b2bc3() {
+var data = gvisDataMotionChartID3b1e206b2bc3();
 var options = {};
 options["width"] = 600;
 options["height"] = 500;
 options["state"] = "";
 
     var chart = new google.visualization.MotionChart(
-    document.getElementById('MotionChartID29b61a046d2c')
+    document.getElementById('MotionChartID3b1e206b2bc3')
     );
     chart.draw(data,options);
     
@@ -983,9 +1016,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartMotionChartID29b61a046d2c);
+callbacks.push(drawChartMotionChartID3b1e206b2bc3);
 })();
-function displayChartMotionChartID29b61a046d2c() {
+function displayChartMotionChartID3b1e206b2bc3() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1009,14 +1042,14 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID29b61a046d2c"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID3b1e206b2bc3"></script>
  
 <!-- divChart -->
   
-<div id="MotionChartID29b61a046d2c" 
+<div id="MotionChartID3b1e206b2bc3" 
   style="width: 600; height: 500;">
 </div>
- <div><span>Data: Pro &#8226; Chart ID: <a href="Chart_MotionChartID29b61a046d2c.html">MotionChartID29b61a046d2c</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.2</a></span><br /> 
+ <div><span>Data: Pro &#8226; Chart ID: <a href="Chart_MotionChartID3b1e206b2bc3.html">MotionChartID3b1e206b2bc3</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.2</a></span><br /> 
 <!-- htmlFooter -->
 <span> 
   R version 3.3.3 (2017-03-06) 
@@ -1029,13 +1062,886 @@ callbacks.shift()();
 
 ---
 
-## 三大栄養素エネルギー比率年次推移
+## 脂質摂取量(g/d) 1995-2015
+
 <div align="center">
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>BarChartID29b65d01abb0</title>
+<title>MotionChartID3b1e3b670ab1</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<style type="text/css">
+body {
+  color: #444444;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 75%;
+  }
+  a {
+  color: #4D87C7;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+ <!-- MotionChart generated in R 3.3.3 by googleVis 0.6.2 package -->
+<!-- Fri Apr  7 18:59:35 2017 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataMotionChartID3b1e3b670ab1 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"ALL",
+1995,
+59.9
+],
+[
+"Males",
+1995,
+64.9
+],
+[
+"Females",
+1995,
+55.4
+],
+[
+"ALL",
+1996,
+58.9
+],
+[
+"Males",
+1996,
+63
+],
+[
+"Females",
+1996,
+55.2
+],
+[
+"ALL",
+1997,
+59.3
+],
+[
+"Males",
+1997,
+63.9
+],
+[
+"Females",
+1997,
+55.2
+],
+[
+"ALL",
+1998,
+57.9
+],
+[
+"Males",
+1998,
+62.3
+],
+[
+"Females",
+1998,
+53.8
+],
+[
+"ALL",
+1999,
+57.9
+],
+[
+"Males",
+1999,
+62.5
+],
+[
+"Females",
+1999,
+53.8
+],
+[
+"ALL",
+2000,
+57.4
+],
+[
+"Males",
+2000,
+61.7
+],
+[
+"Females",
+2000,
+53.5
+],
+[
+"ALL",
+2001,
+55.3
+],
+[
+"Males",
+2001,
+59.5
+],
+[
+"Females",
+2001,
+51.6
+],
+[
+"ALL",
+2002,
+54.4
+],
+[
+"Males",
+2002,
+58.7
+],
+[
+"Females",
+2002,
+50.7
+],
+[
+"ALL",
+2003,
+54
+],
+[
+"Males",
+2003,
+58.2
+],
+[
+"Females",
+2003,
+50.2
+],
+[
+"ALL",
+2004,
+54.1
+],
+[
+"Males",
+2004,
+58.2
+],
+[
+"Females",
+2004,
+50.4
+],
+[
+"ALL",
+2005,
+53.9
+],
+[
+"Males",
+2005,
+57.9
+],
+[
+"Females",
+2005,
+50.4
+],
+[
+"ALL",
+2006,
+54.1
+],
+[
+"Males",
+2006,
+58.2
+],
+[
+"Females",
+2006,
+50.4
+],
+[
+"ALL",
+2007,
+55.1
+],
+[
+"Males",
+2007,
+59.4
+],
+[
+"Females",
+2007,
+51.3
+],
+[
+"ALL",
+2008,
+52.1
+],
+[
+"Males",
+2008,
+56.2
+],
+[
+"Females",
+2008,
+48.5
+],
+[
+"ALL",
+2009,
+53.6
+],
+[
+"Males",
+2009,
+57.9
+],
+[
+"Females",
+2009,
+49.8
+],
+[
+"ALL",
+2010,
+53.7
+],
+[
+"Males",
+2010,
+58.1
+],
+[
+"Females",
+2010,
+49.9
+],
+[
+"ALL",
+2011,
+54
+],
+[
+"Males",
+2011,
+58.3
+],
+[
+"Females",
+2011,
+50.3
+],
+[
+"ALL",
+2012,
+55
+],
+[
+"Males",
+2012,
+59.6
+],
+[
+"Females",
+2012,
+51
+],
+[
+"ALL",
+2013,
+55
+],
+[
+"Males",
+2013,
+60
+],
+[
+"Females",
+2013,
+50.6
+],
+[
+"ALL",
+2014,
+55
+],
+[
+"Males",
+2014,
+60
+],
+[
+"Females",
+2014,
+50.6
+],
+[
+"ALL",
+2015,
+57
+],
+[
+"Males",
+2015,
+62.1
+],
+[
+"Females",
+2015,
+52.5
+] 
+];
+data.addColumn('string','X1');
+data.addColumn('number','Year');
+data.addColumn('number','fat');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartMotionChartID3b1e3b670ab1() {
+var data = gvisDataMotionChartID3b1e3b670ab1();
+var options = {};
+options["width"] = 600;
+options["height"] = 500;
+options["state"] = "";
+
+    var chart = new google.visualization.MotionChart(
+    document.getElementById('MotionChartID3b1e3b670ab1')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "motionchart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartMotionChartID3b1e3b670ab1);
+})();
+function displayChartMotionChartID3b1e3b670ab1() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID3b1e3b670ab1"></script>
+ 
+<!-- divChart -->
+  
+<div id="MotionChartID3b1e3b670ab1" 
+  style="width: 600; height: 500;">
+</div>
+ <div><span>Data: Fat &#8226; Chart ID: <a href="Chart_MotionChartID3b1e3b670ab1.html">MotionChartID3b1e3b670ab1</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.2</a></span><br /> 
+<!-- htmlFooter -->
+<span> 
+  R version 3.3.3 (2017-03-06) 
+  &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; <a href="https://google-developers.appspot.com/chart/interactive/docs/gallery/motionchart">Documentation and Data Policy</a>
+</span></div>
+</body>
+</html>
+</div>
+
+
+
+---
+
+## 炭水化物摂取量(g/d) 1995-2015
+
+<div align="center">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>MotionChartID3b1e14eb1f4</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<style type="text/css">
+body {
+  color: #444444;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 75%;
+  }
+  a {
+  color: #4D87C7;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+ <!-- MotionChart generated in R 3.3.3 by googleVis 0.6.2 package -->
+<!-- Fri Apr  7 18:59:35 2017 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataMotionChartID3b1e14eb1f4 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"ALL",
+1995,
+280
+],
+[
+"Males",
+1995,
+307.6
+],
+[
+"Females",
+1995,
+255
+],
+[
+"ALL",
+1996,
+273.9
+],
+[
+"Males",
+1996,
+297.3
+],
+[
+"Females",
+1996,
+252.8
+],
+[
+"ALL",
+1997,
+273.5
+],
+[
+"Males",
+1997,
+298.8
+],
+[
+"Females",
+1997,
+251
+],
+[
+"ALL",
+1998,
+270.7
+],
+[
+"Males",
+1998,
+294.7
+],
+[
+"Females",
+1998,
+248.9
+],
+[
+"ALL",
+1999,
+269
+],
+[
+"Males",
+1999,
+293.3
+],
+[
+"Females",
+1999,
+247.3
+],
+[
+"ALL",
+2000,
+266.2
+],
+[
+"Males",
+2000,
+290.9
+],
+[
+"Females",
+2000,
+244
+],
+[
+"ALL",
+2001,
+274.1
+],
+[
+"Males",
+2001,
+299.9
+],
+[
+"Females",
+2001,
+251.3
+],
+[
+"ALL",
+2002,
+271.2
+],
+[
+"Males",
+2002,
+297.3
+],
+[
+"Females",
+2002,
+248.3
+],
+[
+"ALL",
+2003,
+269.9
+],
+[
+"Males",
+2003,
+297.8
+],
+[
+"Females",
+2003,
+244.7
+],
+[
+"ALL",
+2004,
+266.1
+],
+[
+"Males",
+2004,
+291.7
+],
+[
+"Females",
+2004,
+243.1
+],
+[
+"ALL",
+2005,
+267.4
+],
+[
+"Males",
+2005,
+294
+],
+[
+"Females",
+2005,
+244
+],
+[
+"ALL",
+2006,
+264.4
+],
+[
+"Males",
+2006,
+290.4
+],
+[
+"Females",
+2006,
+241.2
+],
+[
+"ALL",
+2007,
+264.1
+],
+[
+"Males",
+2007,
+291.7
+],
+[
+"Females",
+2007,
+239.7
+],
+[
+"ALL",
+2008,
+264.6
+],
+[
+"Males",
+2008,
+291.2
+],
+[
+"Females",
+2008,
+241.3
+],
+[
+"ALL",
+2009,
+260.2
+],
+[
+"Males",
+2009,
+287.2
+],
+[
+"Females",
+2009,
+236.8
+],
+[
+"ALL",
+2010,
+257.6
+],
+[
+"Males",
+2010,
+284.6
+],
+[
+"Females",
+2010,
+233.6
+],
+[
+"ALL",
+2011,
+255.1
+],
+[
+"Males",
+2011,
+281.6
+],
+[
+"Females",
+2011,
+232.1
+],
+[
+"ALL",
+2012,
+259.8
+],
+[
+"Males",
+2012,
+286.9
+],
+[
+"Females",
+2012,
+235.6
+],
+[
+"ALL",
+2013,
+258.6
+],
+[
+"Males",
+2013,
+286.7
+],
+[
+"Females",
+2013,
+233.4
+],
+[
+"ALL",
+2014,
+256.8
+],
+[
+"Males",
+2014,
+286
+],
+[
+"Females",
+2014,
+230.8
+],
+[
+"ALL",
+2015,
+257.8
+],
+[
+"Males",
+2015,
+285.6
+],
+[
+"Females",
+2015,
+233.2
+] 
+];
+data.addColumn('string','X1');
+data.addColumn('number','Year');
+data.addColumn('number','carbon');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartMotionChartID3b1e14eb1f4() {
+var data = gvisDataMotionChartID3b1e14eb1f4();
+var options = {};
+options["width"] = 600;
+options["height"] = 500;
+options["state"] = "";
+
+    var chart = new google.visualization.MotionChart(
+    document.getElementById('MotionChartID3b1e14eb1f4')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "motionchart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartMotionChartID3b1e14eb1f4);
+})();
+function displayChartMotionChartID3b1e14eb1f4() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID3b1e14eb1f4"></script>
+ 
+<!-- divChart -->
+  
+<div id="MotionChartID3b1e14eb1f4" 
+  style="width: 600; height: 500;">
+</div>
+ <div><span>Data: Carbon &#8226; Chart ID: <a href="Chart_MotionChartID3b1e14eb1f4.html">MotionChartID3b1e14eb1f4</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.2</a></span><br /> 
+<!-- htmlFooter -->
+<span> 
+  R version 3.3.3 (2017-03-06) 
+  &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; <a href="https://google-developers.appspot.com/chart/interactive/docs/gallery/motionchart">Documentation and Data Policy</a>
+</span></div>
+</body>
+</html>
+</div>
+
+
+---
+
+## 三大栄養素エネルギー比率(全体)
+<div align="center">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>BarChartID3b1e135d2c13</title>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <style type="text/css">
 body {
@@ -1051,14 +1957,14 @@ body {
 </head>
 <body>
  <!-- BarChart generated in R 3.3.3 by googleVis 0.6.2 package -->
-<!-- Fri Apr  7 17:22:32 2017 -->
+<!-- Fri Apr  7 18:59:35 2017 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataBarChartID29b65d01abb0 () {
+function gvisDataBarChartID3b1e135d2c13 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -1198,8 +2104,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartBarChartID29b65d01abb0() {
-var data = gvisDataBarChartID29b65d01abb0();
+function drawChartBarChartID3b1e135d2c13() {
+var data = gvisDataBarChartID3b1e135d2c13();
 var options = {};
 options["allowHtml"] = true;
 options["isStacked"] = "percent";
@@ -1209,7 +2115,7 @@ options["bar"] = {groupWidth:'80%'};
 options["chartArea"] = {'width': '70%', 'height': '95%'};
 
     var chart = new google.visualization.BarChart(
-    document.getElementById('BarChartID29b65d01abb0')
+    document.getElementById('BarChartID3b1e135d2c13')
     );
     chart.draw(data,options);
     
@@ -1233,9 +2139,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartBarChartID29b65d01abb0);
+callbacks.push(drawChartBarChartID3b1e135d2c13);
 })();
-function displayChartBarChartID29b65d01abb0() {
+function displayChartBarChartID3b1e135d2c13() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1259,14 +2165,514 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBarChartID29b65d01abb0"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBarChartID3b1e135d2c13"></script>
  
 <!-- divChart -->
   
-<div id="BarChartID29b65d01abb0" 
+<div id="BarChartID3b1e135d2c13" 
   style="width: 800; height: 500;">
 </div>
- <div><span>Data: data &#8226; Chart ID: <a href="Chart_BarChartID29b65d01abb0.html">BarChartID29b65d01abb0</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.2</a></span><br /> 
+ <div><span>Data: data &#8226; Chart ID: <a href="Chart_BarChartID3b1e135d2c13.html">BarChartID3b1e135d2c13</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.2</a></span><br /> 
+<!-- htmlFooter -->
+<span> 
+  R version 3.3.3 (2017-03-06) 
+  &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; <a href="https://google-developers.appspot.com/chart/interactive/docs/gallery/barchart">Documentation and Data Policy</a>
+</span></div>
+</body>
+</html>
+</div>
+
+
+
+---
+
+## 三大栄養素エネルギー比率(男性)
+<div align="center">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>BarChartID3b1e5abb9897</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<style type="text/css">
+body {
+  color: #444444;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 75%;
+  }
+  a {
+  color: #4D87C7;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+ <!-- BarChart generated in R 3.3.3 by googleVis 0.6.2 package -->
+<!-- Fri Apr  7 18:59:35 2017 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataBarChartID3b1e5abb9897 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"1995",
+358,
+1230.4,
+584.1
+],
+[
+"1996",
+350,
+1189.2,
+567
+],
+[
+"1997",
+351.6,
+1195.2,
+575.1
+],
+[
+"1998",
+346.4,
+1178.8,
+560.7
+],
+[
+"1999",
+345.2,
+1173.2,
+562.5
+],
+[
+"2000",
+339.6,
+1163.6,
+555.3
+],
+[
+"2001",
+319.6,
+1199.6,
+535.5
+],
+[
+"2002",
+314.4,
+1189.2,
+528.3
+],
+[
+"2003",
+312,
+1191.2,
+523.8
+],
+[
+"2004",
+306.4,
+1166.8,
+523.8
+],
+[
+"2005",
+308.8,
+1176,
+521.1
+],
+[
+"2006",
+302.8,
+1161.6,
+523.8
+],
+[
+"2007",
+304.8,
+1166.8,
+534.6
+],
+[
+"2008",
+298,
+1164.8,
+505.8
+],
+[
+"2009",
+295.6,
+1148.8,
+521.1
+],
+[
+"2010",
+293.2,
+1138.4,
+522.9
+],
+[
+"2011",
+292.8,
+1126.4,
+524.7
+],
+[
+"2012",
+297.2,
+1147.6,
+536.4
+],
+[
+"2013",
+302,
+1146.8,
+540
+],
+[
+"2014",
+298.8,
+1144,
+540
+],
+[
+"2015",
+301.6,
+1142.4,
+558.9
+] 
+];
+data.addColumn('string','Year');
+data.addColumn('number','protein');
+data.addColumn('number','carbon');
+data.addColumn('number','fat');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartBarChartID3b1e5abb9897() {
+var data = gvisDataBarChartID3b1e5abb9897();
+var options = {};
+options["allowHtml"] = true;
+options["isStacked"] = "percent";
+options["width"] = 800;
+options["height"] = 500;
+options["bar"] = {groupWidth:'80%'};
+options["chartArea"] = {'width': '70%', 'height': '95%'};
+
+    var chart = new google.visualization.BarChart(
+    document.getElementById('BarChartID3b1e5abb9897')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "corechart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartBarChartID3b1e5abb9897);
+})();
+function displayChartBarChartID3b1e5abb9897() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBarChartID3b1e5abb9897"></script>
+ 
+<!-- divChart -->
+  
+<div id="BarChartID3b1e5abb9897" 
+  style="width: 800; height: 500;">
+</div>
+ <div><span>Data: data &#8226; Chart ID: <a href="Chart_BarChartID3b1e5abb9897.html">BarChartID3b1e5abb9897</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.2</a></span><br /> 
+<!-- htmlFooter -->
+<span> 
+  R version 3.3.3 (2017-03-06) 
+  &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; <a href="https://google-developers.appspot.com/chart/interactive/docs/gallery/barchart">Documentation and Data Policy</a>
+</span></div>
+</body>
+</html>
+</div>
+
+---
+
+## 三大栄養素エネルギー比率(女性)
+<div align="center">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>BarChartID3b1e5680e312</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<style type="text/css">
+body {
+  color: #444444;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 75%;
+  }
+  a {
+  color: #4D87C7;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+ <!-- BarChart generated in R 3.3.3 by googleVis 0.6.2 package -->
+<!-- Fri Apr  7 18:59:35 2017 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataBarChartID3b1e5680e312 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"1995",
+297.2,
+1020,
+498.6
+],
+[
+"1996",
+293.2,
+1011.2,
+496.8
+],
+[
+"1997",
+295.6,
+1004,
+496.8
+],
+[
+"1998",
+290,
+995.6,
+484.2
+],
+[
+"1999",
+289.2,
+989.2,
+484.2
+],
+[
+"2000",
+284.4,
+976,
+481.5
+],
+[
+"2001",
+270.8,
+1005.2,
+464.4
+],
+[
+"2002",
+265.6,
+993.2,
+456.3
+],
+[
+"2003",
+262.8,
+978.8,
+451.8
+],
+[
+"2004",
+262.4,
+972.4,
+453.6
+],
+[
+"2005",
+262.8,
+976,
+453.6
+],
+[
+"2006",
+258,
+964.8,
+453.6
+],
+[
+"2007",
+256.8,
+958.8,
+461.7
+],
+[
+"2008",
+250,
+965.2,
+436.5
+],
+[
+"2009",
+250.4,
+947.2,
+448.2
+],
+[
+"2010",
+248,
+934.4,
+449.1
+],
+[
+"2011",
+246.4,
+928.4,
+452.7
+],
+[
+"2012",
+249.6,
+942.4,
+459
+],
+[
+"2013",
+252,
+933.6,
+455.4
+],
+[
+"2014",
+246,
+923.2,
+455.4
+],
+[
+"2015",
+254,
+932.8,
+472.5
+] 
+];
+data.addColumn('string','Year');
+data.addColumn('number','protein');
+data.addColumn('number','carbon');
+data.addColumn('number','fat');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartBarChartID3b1e5680e312() {
+var data = gvisDataBarChartID3b1e5680e312();
+var options = {};
+options["allowHtml"] = true;
+options["isStacked"] = "percent";
+options["width"] = 800;
+options["height"] = 500;
+options["bar"] = {groupWidth:'80%'};
+options["chartArea"] = {'width': '70%', 'height': '95%'};
+
+    var chart = new google.visualization.BarChart(
+    document.getElementById('BarChartID3b1e5680e312')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "corechart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartBarChartID3b1e5680e312);
+})();
+function displayChartBarChartID3b1e5680e312() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBarChartID3b1e5680e312"></script>
+ 
+<!-- divChart -->
+  
+<div id="BarChartID3b1e5680e312" 
+  style="width: 800; height: 500;">
+</div>
+ <div><span>Data: data &#8226; Chart ID: <a href="Chart_BarChartID3b1e5680e312.html">BarChartID3b1e5680e312</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.2</a></span><br /> 
 <!-- htmlFooter -->
 <span> 
   R version 3.3.3 (2017-03-06) 
