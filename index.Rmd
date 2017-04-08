@@ -115,7 +115,6 @@ license     : by-nc-sa
 <br>
 > 歯肉は 歯根のあたりまで腐り，頬は硬く腫れ上がって，ぐらつく歯は今にも抜けそうになる．...... 息は臭く，足には力が入らず，体のいたるところが疼き，青や赤のあざができる．
 
-
 *** =left
 <br>
 ![](img/kaiketsu.jpg)
@@ -125,6 +124,25 @@ license     : by-nc-sa
 ![](img/kaiketsu1.jpg)
 
 
+--- &twocol
+## イギリス水兵のあだ名：limey<br>ライム果汁を飲んでいたから
+
+*** =left
+### 当時の医師が提案した治療法
+- 瀉血
+- 水銀剤
+- 塩水
+- 酢
+- 硫酸
+- 塩酸
+- モーゼル・ワイン　
+- 重労働　　などなど
+
+*** =right
+<br><br><br>
+![](gif/lemon.gif)
+
+
 ---
 ## リンドの実験
 <br>
@@ -132,7 +150,6 @@ license     : by-nc-sa
 <div class="centered">
 <IMG SRC="img/lindexp.png" style = "width:800px;height:450px">
 </div>
-
 
 --- #custbg4
 
@@ -144,8 +161,6 @@ license     : by-nc-sa
   background-size: cover;
 }
 </style>
-
-
 
 
 --- &radio
