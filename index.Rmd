@@ -13,27 +13,44 @@ assets      : {assets: ../../assets}
 license     : by-nc-sa
 ---
 
-
 ---
+## 7割の医師が栄養学の重要性を実感
+### - [医学部の栄養学講義についての調査](http://news.mynavi.jp/news/2012/05/22/069/)
 
-## 本日の内容
+<div class="centered">
+<IMG SRC="img/lecture.jpg" style = "width:810px;height:350px">
+</div>
 
->-  病気と食事・栄養素
-    - 欠乏症
-    - 生活習慣病
+* 「生活習慣病の増加に伴い、必要性が高まっている」
+* 「食事療法を指導する上では必須」
+* 「患者さんから食事関係の質問が多い」というものがあった。
 
->-  食事調査と栄養疫学研究
-    - 日本人の食事摂取基準
-    - 国民健康・栄養調査
+--- &twocol
+
+## 栄養学を知る
+> 食は生命なり
+> <br>「食事を通して栄養学を日々の暮らしに根付かせることが、人々の健康な生活につながる」
+
+*** =left
+###  病気と食事・栄養素
+
+   - 欠乏症
+   - 生活習慣病
+<br><br><br>
+<IMG SRC="gif/eating1.gif" style = "width:300px;height:200px">
 
 
+*** =right
+###  食事調査と栄養疫学入門
 
-
-
+* 日本人の食事摂取基準
+* 国民健康・栄養調査
+<br><br><br>
+<IMG SRC="gif/eating2.gif" style = "width:300px;height:200px">
 
 
 --- &radio
-## 栄養素欠乏症 
+## 栄養素欠乏症
 
 **国試105G8** 栄養素とその欠乏によって起こる病態との組み合わせで正しいのはどれか．
 
@@ -49,6 +66,87 @@ license     : by-nc-sa
 3. ビタミンCはコラーゲンと血管壁の結合組織を作るのに関与する．したがって，その欠乏により壊血病，すなわち血管壁の脆弱化が見られやすくなる．
 4. 貧血は，鉄（小球性低色素性貧血）やビタミンB_12欠乏症（巨赤芽球性貧血）によって起こる．
 5. 夜盲症はビタミンA欠乏によって起こる．
+
+--- #custbg1
+
+<style>
+#custbg1 {
+  background-image:url(img/hungry.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+</style>
+<div class="centered">
+<font color="white">飢餓による栄養失調症</font>
+</div>
+
+--- #custbg2
+
+<style>
+#custbg2 {
+  background-image:url(img/anemia.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+</style>
+
+---
+## くる病
+<div class="centered">
+<IMG SRC="img/rickets.jpg">
+</div>
+
+--- &twocol
+## [ジェイムズ・リンド(James Lind, 1716-1794)](https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A7%E3%83%BC%E3%83%A0%E3%82%BA%E3%83%BB%E3%83%AA%E3%83%B3%E3%83%89)
+
+*** =left
+![](https://upload.wikimedia.org/wikipedia/commons/d/d4/James_Lind_by_Chalmers.jpg)
+
+
+*** =right
+<br><br><br>
+>- **世界初の症例対象研究**<br>
+![](gif/ship.gif)
+
+--- &twocol
+
+<br>
+> 歯肉は 歯根のあたりまで腐り，頬は硬く腫れ上がって，ぐらつく歯は今にも抜けそうになる．...... 息は臭く，足には力が入らず，体のいたるところが疼き，青や赤のあざができる．
+
+
+*** =left
+<br>
+![](img/kaiketsu.jpg)
+
+*** =right
+<br><br><br>
+![](img/kaiketsu1.jpg)
+
+
+---
+## リンドの実験
+<br>
+
+<div class="centered">
+<IMG SRC="img/lindexp.png" style = "width:800px;height:450px">
+</div>
+
+
+--- #custbg4
+
+<style>
+#custbg4 {
+  background-image:url(img/jameslind.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+</style>
+
+
+
 
 --- &radio
 **国試100G63:** 三大栄養素の過剰摂取が関係するのはどれか．
