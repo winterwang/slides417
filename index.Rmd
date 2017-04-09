@@ -125,7 +125,7 @@ license     : by-nc-sa
 
 
 --- &twocol
-## イギリス水兵のあだ名：limey<br>ライム果汁を飲んでいたから
+## イギリス水兵のあだ名：[limey](http://eigo-kobako.blog.so-net.ne.jp/2013-05-27)<br>ライム果汁を飲んでいたから
 
 *** =left
 ### 当時の医師が提案した治療法
@@ -156,6 +156,44 @@ license     : by-nc-sa
 <style>
 #custbg4 {
   background-image:url(img/jameslind.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+</style>
+
+--- &twocol
+## 高木兼寛(1849-1920)の貢献
+
+*** =left
+![](img/takaki.png)
+
+*** =right
+### [高木兼寛の「感」](http://kumadai-publich.com/topics/post_10.html)
+- 19世紀は「菌」の世紀だが，「白米」に注目
+- 貧困層に少なく，富裕層に多い
+- 刑務所の服役囚では極めで少ない
+- 「食べ物の中にの窒素と炭素のアンバランス」ではないか
+- 大麦，大豆，牛肉を多くする食事を海軍に推奨した
+
+![](gif/sherlock.gif)
+
+--- #custbg3
+
+<style>
+#custbg3 {
+  background-image:url(img/takaki_image.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+</style>
+
+--- #custbg5
+
+<style>
+#custbg5 {
+  background-image:url(img/takakilancet.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
