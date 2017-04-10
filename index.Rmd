@@ -106,9 +106,10 @@ license     : by-nc-sa
 
 
 *** =right
-<br><br><br>
->- **世界初の症例対象研究**<br>
-![](gif/ship.gif)
+<br><br>
+>- **世界初の症例対象研究**
+<br><br>
+>- ![](gif/ship.gif)
 
 --- &twocol
 
@@ -246,8 +247,22 @@ license     : by-nc-sa
 <IMG SRC="img/framinham1.png" style = "width:800px;height:580px">
 </div>
 
----
-An apple a day keeps the doctor away.
+
+--- &twocol
+## An apple a day keeps the doctor away.
+
+*** =left
+<br>
+>- ![](gif/appledoctor1.gif)
+>- 1日1個のリンゴは医者を遠ざける．
+
+
+
+*** =right
+<br>
+>- ![](gif/appledoctor2.gif)
+>- アップル製品を一日中遊んでる人は一生医者になれない．
+>- ![](gif/playingiphoneallday.gif)
 
 
 --- &radio
