@@ -235,6 +235,21 @@ license     : by-nc-sa
 5. ✗ ヨード欠乏は甲状腺機能低下の原因となる．また，ヨードが欠乏している地域において，急にヨードが行き渡るようになると甲状腺機能亢進症が多発することが知られている．
 
 
+---
+<div class="centered">
+<IMG SRC="img/framinham.png" style = "width:700px;height:700px">
+</div>
+
+---
+### 40歳男子を18年間経過観察しての心臓病のリスク
+<div class="centered">
+<IMG SRC="img/framinham1.png" style = "width:800px;height:580px">
+</div>
+
+---
+An apple a day keeps the doctor away.
+
+
 --- &radio
 
 
