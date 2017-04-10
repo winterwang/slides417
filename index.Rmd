@@ -190,16 +190,12 @@ license     : by-nc-sa
 }
 </style>
 
---- #custbg5
+--- 
+<br><br><br>
+<div class="centered">
+<IMG SRC="img/takakilancet.png" style = "width:810px;height:350px">
+</div>
 
-<style>
-#custbg5 {
-  background-image:url(img/takakilancet.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-</style>
 
 
 --- &radio
