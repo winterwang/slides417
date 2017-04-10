@@ -169,7 +169,7 @@ license     : by-nc-sa
 ![](img/takaki.png)
 
 *** =right
-### [高木兼寛の「感」](http://kumadai-publich.com/topics/post_10.html)
+### [高木兼寛の「勘」](http://kumadai-publich.com/topics/post_10.html)
 - 19世紀は「菌」の世紀だが，「白米」に注目
 - 貧困層に少なく，富裕層に多い
 - 刑務所の服役囚では極めで少ない
