@@ -166,10 +166,11 @@ license     : by-nc-sa
 ## 高木兼寛(1849-1920)の貢献
 
 *** =left
+<br>
 ![](img/takaki.png)
 
 *** =right
-### [高木兼寛の「感」](http://kumadai-publich.com/topics/post_10.html)
+### [高木兼寛の「勘」](http://kumadai-publich.com/topics/post_10.html)
 - 19世紀は「菌」の世紀だが，「白米」に注目
 - 貧困層に少なく，富裕層に多い
 - 刑務所の服役囚では極めで少ない
@@ -350,7 +351,7 @@ DG          | 摂取量がDGに達しているか、示された範囲内にあ�
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>MotionChartID74bb56b321d2</title>
+<title>MotionChartID3f262bc5fa6</title>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <style type="text/css">
 body {
@@ -366,14 +367,14 @@ body {
 </head>
 <body>
  <!-- MotionChart generated in R 3.3.3 by googleVis 0.6.2 package -->
-<!-- Sun Apr  9 21:32:05 2017 -->
+<!-- Mon Apr 10 11:49:34 2017 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataMotionChartID74bb56b321d2 () {
+function gvisDataMotionChartID3f262bc5fa6 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -701,15 +702,15 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartMotionChartID74bb56b321d2() {
-var data = gvisDataMotionChartID74bb56b321d2();
+function drawChartMotionChartID3f262bc5fa6() {
+var data = gvisDataMotionChartID3f262bc5fa6();
 var options = {};
 options["width"] = 600;
 options["height"] = 500;
 options["state"] = "";
 
     var chart = new google.visualization.MotionChart(
-    document.getElementById('MotionChartID74bb56b321d2')
+    document.getElementById('MotionChartID3f262bc5fa6')
     );
     chart.draw(data,options);
     
@@ -733,9 +734,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartMotionChartID74bb56b321d2);
+callbacks.push(drawChartMotionChartID3f262bc5fa6);
 })();
-function displayChartMotionChartID74bb56b321d2() {
+function displayChartMotionChartID3f262bc5fa6() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -759,14 +760,14 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID74bb56b321d2"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID3f262bc5fa6"></script>
  
 <!-- divChart -->
   
-<div id="MotionChartID74bb56b321d2" 
+<div id="MotionChartID3f262bc5fa6" 
   style="width: 600; height: 500;">
 </div>
- <div><span>Data: EI &#8226; Chart ID: <a href="Chart_MotionChartID74bb56b321d2.html">MotionChartID74bb56b321d2</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.2</a></span><br /> 
+ <div><span>Data: EI &#8226; Chart ID: <a href="Chart_MotionChartID3f262bc5fa6.html">MotionChartID3f262bc5fa6</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.2</a></span><br /> 
 <!-- htmlFooter -->
 <span> 
   R version 3.3.3 (2017-03-06) 
@@ -786,7 +787,7 @@ callbacks.shift()();
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>MotionChartID74bb12f3cf47</title>
+<title>MotionChartID3f263a324ed1</title>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <style type="text/css">
 body {
@@ -802,14 +803,14 @@ body {
 </head>
 <body>
  <!-- MotionChart generated in R 3.3.3 by googleVis 0.6.2 package -->
-<!-- Sun Apr  9 21:32:05 2017 -->
+<!-- Mon Apr 10 11:49:34 2017 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataMotionChartID74bb12f3cf47 () {
+function gvisDataMotionChartID3f263a324ed1 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -1137,15 +1138,15 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartMotionChartID74bb12f3cf47() {
-var data = gvisDataMotionChartID74bb12f3cf47();
+function drawChartMotionChartID3f263a324ed1() {
+var data = gvisDataMotionChartID3f263a324ed1();
 var options = {};
 options["width"] = 600;
 options["height"] = 500;
 options["state"] = "";
 
     var chart = new google.visualization.MotionChart(
-    document.getElementById('MotionChartID74bb12f3cf47')
+    document.getElementById('MotionChartID3f263a324ed1')
     );
     chart.draw(data,options);
     
@@ -1169,9 +1170,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartMotionChartID74bb12f3cf47);
+callbacks.push(drawChartMotionChartID3f263a324ed1);
 })();
-function displayChartMotionChartID74bb12f3cf47() {
+function displayChartMotionChartID3f263a324ed1() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1195,14 +1196,14 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID74bb12f3cf47"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID3f263a324ed1"></script>
  
 <!-- divChart -->
   
-<div id="MotionChartID74bb12f3cf47" 
+<div id="MotionChartID3f263a324ed1" 
   style="width: 600; height: 500;">
 </div>
- <div><span>Data: Pro &#8226; Chart ID: <a href="Chart_MotionChartID74bb12f3cf47.html">MotionChartID74bb12f3cf47</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.2</a></span><br /> 
+ <div><span>Data: Pro &#8226; Chart ID: <a href="Chart_MotionChartID3f263a324ed1.html">MotionChartID3f263a324ed1</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.2</a></span><br /> 
 <!-- htmlFooter -->
 <span> 
   R version 3.3.3 (2017-03-06) 
@@ -1222,7 +1223,7 @@ callbacks.shift()();
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>MotionChartID74bb23c913be</title>
+<title>MotionChartID3f2611a7e22a</title>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <style type="text/css">
 body {
@@ -1238,14 +1239,14 @@ body {
 </head>
 <body>
  <!-- MotionChart generated in R 3.3.3 by googleVis 0.6.2 package -->
-<!-- Sun Apr  9 21:32:05 2017 -->
+<!-- Mon Apr 10 11:49:34 2017 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataMotionChartID74bb23c913be () {
+function gvisDataMotionChartID3f2611a7e22a () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -1573,15 +1574,15 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartMotionChartID74bb23c913be() {
-var data = gvisDataMotionChartID74bb23c913be();
+function drawChartMotionChartID3f2611a7e22a() {
+var data = gvisDataMotionChartID3f2611a7e22a();
 var options = {};
 options["width"] = 600;
 options["height"] = 500;
 options["state"] = "";
 
     var chart = new google.visualization.MotionChart(
-    document.getElementById('MotionChartID74bb23c913be')
+    document.getElementById('MotionChartID3f2611a7e22a')
     );
     chart.draw(data,options);
     
@@ -1605,9 +1606,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartMotionChartID74bb23c913be);
+callbacks.push(drawChartMotionChartID3f2611a7e22a);
 })();
-function displayChartMotionChartID74bb23c913be() {
+function displayChartMotionChartID3f2611a7e22a() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1631,14 +1632,14 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID74bb23c913be"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID3f2611a7e22a"></script>
  
 <!-- divChart -->
   
-<div id="MotionChartID74bb23c913be" 
+<div id="MotionChartID3f2611a7e22a" 
   style="width: 600; height: 500;">
 </div>
- <div><span>Data: Fat &#8226; Chart ID: <a href="Chart_MotionChartID74bb23c913be.html">MotionChartID74bb23c913be</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.2</a></span><br /> 
+ <div><span>Data: Fat &#8226; Chart ID: <a href="Chart_MotionChartID3f2611a7e22a.html">MotionChartID3f2611a7e22a</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.2</a></span><br /> 
 <!-- htmlFooter -->
 <span> 
   R version 3.3.3 (2017-03-06) 
@@ -1659,7 +1660,7 @@ callbacks.shift()();
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>MotionChartID74bb1435bb6b</title>
+<title>MotionChartID3f26726bc05</title>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <style type="text/css">
 body {
@@ -1675,14 +1676,14 @@ body {
 </head>
 <body>
  <!-- MotionChart generated in R 3.3.3 by googleVis 0.6.2 package -->
-<!-- Sun Apr  9 21:32:05 2017 -->
+<!-- Mon Apr 10 11:49:34 2017 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataMotionChartID74bb1435bb6b () {
+function gvisDataMotionChartID3f26726bc05 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -2010,15 +2011,15 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartMotionChartID74bb1435bb6b() {
-var data = gvisDataMotionChartID74bb1435bb6b();
+function drawChartMotionChartID3f26726bc05() {
+var data = gvisDataMotionChartID3f26726bc05();
 var options = {};
 options["width"] = 600;
 options["height"] = 500;
 options["state"] = "";
 
     var chart = new google.visualization.MotionChart(
-    document.getElementById('MotionChartID74bb1435bb6b')
+    document.getElementById('MotionChartID3f26726bc05')
     );
     chart.draw(data,options);
     
@@ -2042,9 +2043,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartMotionChartID74bb1435bb6b);
+callbacks.push(drawChartMotionChartID3f26726bc05);
 })();
-function displayChartMotionChartID74bb1435bb6b() {
+function displayChartMotionChartID3f26726bc05() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -2068,14 +2069,14 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID74bb1435bb6b"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID3f26726bc05"></script>
  
 <!-- divChart -->
   
-<div id="MotionChartID74bb1435bb6b" 
+<div id="MotionChartID3f26726bc05" 
   style="width: 600; height: 500;">
 </div>
- <div><span>Data: Carbon &#8226; Chart ID: <a href="Chart_MotionChartID74bb1435bb6b.html">MotionChartID74bb1435bb6b</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.2</a></span><br /> 
+ <div><span>Data: Carbon &#8226; Chart ID: <a href="Chart_MotionChartID3f26726bc05.html">MotionChartID3f26726bc05</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.2</a></span><br /> 
 <!-- htmlFooter -->
 <span> 
   R version 3.3.3 (2017-03-06) 
@@ -2094,7 +2095,7 @@ callbacks.shift()();
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>BarChartID74bb5b47480c</title>
+<title>BarChartID3f26521e709e</title>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <style type="text/css">
 body {
@@ -2110,14 +2111,14 @@ body {
 </head>
 <body>
  <!-- BarChart generated in R 3.3.3 by googleVis 0.6.2 package -->
-<!-- Sun Apr  9 21:32:05 2017 -->
+<!-- Mon Apr 10 11:49:34 2017 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataBarChartID74bb5b47480c () {
+function gvisDataBarChartID3f26521e709e () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -2257,8 +2258,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartBarChartID74bb5b47480c() {
-var data = gvisDataBarChartID74bb5b47480c();
+function drawChartBarChartID3f26521e709e() {
+var data = gvisDataBarChartID3f26521e709e();
 var options = {};
 options["allowHtml"] = true;
 options["isStacked"] = "percent";
@@ -2268,7 +2269,7 @@ options["bar"] = {groupWidth:'80%'};
 options["chartArea"] = {'width': '70%', 'height': '95%'};
 
     var chart = new google.visualization.BarChart(
-    document.getElementById('BarChartID74bb5b47480c')
+    document.getElementById('BarChartID3f26521e709e')
     );
     chart.draw(data,options);
     
@@ -2292,9 +2293,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartBarChartID74bb5b47480c);
+callbacks.push(drawChartBarChartID3f26521e709e);
 })();
-function displayChartBarChartID74bb5b47480c() {
+function displayChartBarChartID3f26521e709e() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -2318,14 +2319,14 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBarChartID74bb5b47480c"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBarChartID3f26521e709e"></script>
  
 <!-- divChart -->
   
-<div id="BarChartID74bb5b47480c" 
+<div id="BarChartID3f26521e709e" 
   style="width: 800; height: 500;">
 </div>
- <div><span>Data: data &#8226; Chart ID: <a href="Chart_BarChartID74bb5b47480c.html">BarChartID74bb5b47480c</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.2</a></span><br /> 
+ <div><span>Data: data &#8226; Chart ID: <a href="Chart_BarChartID3f26521e709e.html">BarChartID3f26521e709e</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.2</a></span><br /> 
 <!-- htmlFooter -->
 <span> 
   R version 3.3.3 (2017-03-06) 
@@ -2345,7 +2346,7 @@ callbacks.shift()();
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>BarChartID74bb2356ced4</title>
+<title>BarChartID3f2626e0dc03</title>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <style type="text/css">
 body {
@@ -2361,14 +2362,14 @@ body {
 </head>
 <body>
  <!-- BarChart generated in R 3.3.3 by googleVis 0.6.2 package -->
-<!-- Sun Apr  9 21:32:05 2017 -->
+<!-- Mon Apr 10 11:49:34 2017 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataBarChartID74bb2356ced4 () {
+function gvisDataBarChartID3f2626e0dc03 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -2508,8 +2509,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartBarChartID74bb2356ced4() {
-var data = gvisDataBarChartID74bb2356ced4();
+function drawChartBarChartID3f2626e0dc03() {
+var data = gvisDataBarChartID3f2626e0dc03();
 var options = {};
 options["allowHtml"] = true;
 options["isStacked"] = "percent";
@@ -2519,7 +2520,7 @@ options["bar"] = {groupWidth:'80%'};
 options["chartArea"] = {'width': '70%', 'height': '95%'};
 
     var chart = new google.visualization.BarChart(
-    document.getElementById('BarChartID74bb2356ced4')
+    document.getElementById('BarChartID3f2626e0dc03')
     );
     chart.draw(data,options);
     
@@ -2543,9 +2544,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartBarChartID74bb2356ced4);
+callbacks.push(drawChartBarChartID3f2626e0dc03);
 })();
-function displayChartBarChartID74bb2356ced4() {
+function displayChartBarChartID3f2626e0dc03() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -2569,14 +2570,14 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBarChartID74bb2356ced4"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBarChartID3f2626e0dc03"></script>
  
 <!-- divChart -->
   
-<div id="BarChartID74bb2356ced4" 
+<div id="BarChartID3f2626e0dc03" 
   style="width: 800; height: 500;">
 </div>
- <div><span>Data: data &#8226; Chart ID: <a href="Chart_BarChartID74bb2356ced4.html">BarChartID74bb2356ced4</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.2</a></span><br /> 
+ <div><span>Data: data &#8226; Chart ID: <a href="Chart_BarChartID3f2626e0dc03.html">BarChartID3f2626e0dc03</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.2</a></span><br /> 
 <!-- htmlFooter -->
 <span> 
   R version 3.3.3 (2017-03-06) 
@@ -2594,7 +2595,7 @@ callbacks.shift()();
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>BarChartID74bbf72147e</title>
+<title>BarChartID3f265ed13fef</title>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <style type="text/css">
 body {
@@ -2610,14 +2611,14 @@ body {
 </head>
 <body>
  <!-- BarChart generated in R 3.3.3 by googleVis 0.6.2 package -->
-<!-- Sun Apr  9 21:32:06 2017 -->
+<!-- Mon Apr 10 11:49:34 2017 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataBarChartID74bbf72147e () {
+function gvisDataBarChartID3f265ed13fef () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -2757,8 +2758,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartBarChartID74bbf72147e() {
-var data = gvisDataBarChartID74bbf72147e();
+function drawChartBarChartID3f265ed13fef() {
+var data = gvisDataBarChartID3f265ed13fef();
 var options = {};
 options["allowHtml"] = true;
 options["isStacked"] = "percent";
@@ -2768,7 +2769,7 @@ options["bar"] = {groupWidth:'80%'};
 options["chartArea"] = {'width': '70%', 'height': '95%'};
 
     var chart = new google.visualization.BarChart(
-    document.getElementById('BarChartID74bbf72147e')
+    document.getElementById('BarChartID3f265ed13fef')
     );
     chart.draw(data,options);
     
@@ -2792,9 +2793,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartBarChartID74bbf72147e);
+callbacks.push(drawChartBarChartID3f265ed13fef);
 })();
-function displayChartBarChartID74bbf72147e() {
+function displayChartBarChartID3f265ed13fef() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -2818,14 +2819,14 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBarChartID74bbf72147e"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBarChartID3f265ed13fef"></script>
  
 <!-- divChart -->
   
-<div id="BarChartID74bbf72147e" 
+<div id="BarChartID3f265ed13fef" 
   style="width: 800; height: 500;">
 </div>
- <div><span>Data: data &#8226; Chart ID: <a href="Chart_BarChartID74bbf72147e.html">BarChartID74bbf72147e</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.2</a></span><br /> 
+ <div><span>Data: data &#8226; Chart ID: <a href="Chart_BarChartID3f265ed13fef.html">BarChartID3f265ed13fef</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.2</a></span><br /> 
 <!-- htmlFooter -->
 <span> 
   R version 3.3.3 (2017-03-06) 

@@ -166,6 +166,7 @@ license     : by-nc-sa
 ## 高木兼寛(1849-1920)の貢献
 
 *** =left
+<br>
 ![](img/takaki.png)
 
 *** =right
