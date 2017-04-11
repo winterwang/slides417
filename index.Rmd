@@ -329,7 +329,7 @@ license     : by-nc-sa
 >- **毎年**，全国から約5千世帯とその世帯員約1万5千人を対象に実施されている．
 
 <br>
-<div class="centered">
+>- <div class="centered">
 <IMG SRC="gif/writing.gif" style = "width:250px;height:150px">
 </div>
 
@@ -338,7 +338,47 @@ license     : by-nc-sa
 >- 身体状況調査票:  身長や体重（満１歳以上）; 腹囲（満６歳以上）; 血圧（満15歳以上）; 血液検査（満20歳以上）; １日の運動量（満15歳以上）※歩行数; 問診
 >- 栄養摂取状況調査票（満１歳以上）
   + 世帯の食事摂取量を**秤量法**を用いて調査し
-  + **比例案分法**にて個人あたりの摂取量を算出します．
+  + **案分比例「あんぶんひりつ」法**にて個人あたりの摂取量を算出します．
+
+--- #custbg6
+
+<style>
+#custbg6 {
+  background-image:url(img/FFQ1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+</style>
+
+--- #custbg7
+
+<style>
+#custbg7 {
+  background-image:url(img/FFQ2.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+</style>
+
+
+---
+### 食物摂取頻度調査票
+![](img/ffq.png)
+
+
+--- #custbg8
+
+<style>
+#custbg8 {
+  background-image:url(img/ffq.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+</style>
+
 
 
 
