@@ -294,12 +294,12 @@ license     : by-nc-sa
 --- &twocol
 ## 食事調査(dietary assessment)
 *** =left
-<br><br>
 >- 食べているものは日々変わっている．その内容や量は毎日少しずつ違っている．
 >- 季節によって食べ物も変わる．
-
+<br>
+![](img/fatvariation.png)
 *** =right
-<div class="centered">
+>- <div class="centered">
 <IMG SRC="img/dailyvariation.png" style = "width:320px;height:560px">
 </div>
 
@@ -363,23 +363,14 @@ license     : by-nc-sa
 </style>
 
 
----
-### 食物摂取頻度調査票
+--- &twocol
+## 食物摂取頻度調査票(例)
+*** =left
+<br><br>
 ![](img/ffq.png)
 
-
---- #custbg8
-
-<style>
-#custbg8 {
-  background-image:url(img/ffq.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-</style>
-
-
+*** =right
+![](img/ffqmark.gif)
 
 
 --- &radio
