@@ -1,0 +1,70 @@
+
+--- &radio
+
+**国試105E1:**<br>身体活動レベルⅢの30歳の男性の1日摂取目標量として，**適切**なのはどれか．
+
+1. 鉄　1 mg
+2. 脂質　150 g
+3. 糖質　100 g
+4. _蛋白質　70 g_
+5. カルシウム　200 mg
+
+*** .hint
+問われているのは，栄養素の細かい知識ではなく，輸液栄養療法に通じる基本的な考え方である．脂質を含むエネルギー比率，鉄やカルシウムなどの過剰あるいは不足になりがちな栄養素について問われており，正解以外は適切でないと即座に判断できると良い．
+
+*** .explanation
+1. ✗鉄の1日の損失量が約1mgである．吸収率が10%程度であるため，摂取量として10mgが必要である．
+2. ✗脂質のエネルギー比率は約25%程度(20~30%)である．身体活動レベルⅢの成人男性のエネルギー必要量は約3,000kcalと計算されるので，約25%を脂質で摂取する場合は，$3000 kcal\times25\%\div9kcal/g\approx83g$　となり，150g(エネルギー比率45%)は明らかに過剰である．
+3. ✗糖質のエネルギー比率は50~70%である．3000kcalの約半分を糖質で摂取する場合は，$3000kcal\times50\%\div4kcal/g=375g$ となり，100gはエネルギー比率13%である．
+4. ◯蛋白質の摂取量は体重1kgあたり約1gと覚えておけばよい．腎不全の低蛋白療法は理想体重1kgあたり0.6~0.8gを目安とすることも参考になる．
+5. ✗カルシウムの摂取目標量は概ね600mg以上である．栄養過剰な日本人にあって，カルシウムの摂取は不足していることも覚えておく．
+
+--- &radio
+
+**国試107B61:**55歳の男性，職場の定期健康診断のあと，職場の医務室を訪れた．身長165cm，体重70kg，健康診断では，肥満以外に特記すべき所見を指摘されなかった．仕事は事務作業で，勤務中はほとんどの時間を机に向かって，過ごしている．通勤には自家用車を使っている．勤務の都合で運動する時間を確保するが難しいため，現在の身体活動レベルのまま，BMIが22となる体重目標に減量することにした．55歳の男性の基礎代謝基準値は21.5 kcal/kg/日である．また，推定エネルギー必要量と基礎代謝の比は，身体活動レベルがⅠ(低い)なら1.50，Ⅱ(ふつう)なら1.75，Ⅲ(高い)なら2.00である．この受診者に提示する一日の推定エネルギー必要量(kcal)を求めるための計算式はどれか．
+
+1. $22\times21.5\times1.50$
+2. $70\times1.65\times1.65\times21.5\times1.75$
+3. $22\times21.5\times2.00$
+4. _$22\times1.65\times1.65\times21.5\times1.50$_
+
+*** .explanation
+1. ある個人における1日のエネルギー消費量を推定し，それに基づき必要な摂取エネルギー量（推定エネルギー必要量）を提示するという問題設定である．
+2. EER(estimated energy requirement): 推定エネルギー必要量(kcal/日)<br> $=$ 基礎代謝基準値 $\times$ 基準体重 $\times$ 身体活動レベル <br> $=21.5\times[22\times1.65\times1.65]\times1.50$
+
+
+
+
+
+
+---
+
+## 三大栄養素エネルギー比率(男性)
+<div align="center">
+```{r, results='asis', echo=FALSE, warning=FALSE, message=FALSE, fig.align='center'}
+EnergySource <- read_csv("~/Dropbox/slides/dat/EnergySource.csv",
+     col_types = cols(carbon = col_number(), Year = col_character(),
+         fat = col_number(), protein = col_number()))
+Bar <- gvisBarChart(EnergySource[EnergySource$X1=="Men",], xvar="Year", yvar=c("protein","carbon", "fat"),
+                     options=list(isStacked='percent',width=800, height=500,
+                                  bar="{groupWidth:'80%'}",
+                                  chartArea= "{'width': '70%', 'height': '95%'}"))
+print(Bar)
+```
+</div>
+
+---
+
+## 三大栄養素エネルギー比率(女性)
+<div align="center">
+```{r, results='asis', echo=FALSE, warning=FALSE, message=FALSE, fig.align='center'}
+EnergySource <- read_csv("~/Dropbox/slides/dat/EnergySource.csv",
+     col_types = cols(carbon = col_number(), Year = col_character(),
+         fat = col_number(), protein = col_number()))
+Bar <- gvisBarChart(EnergySource[EnergySource$X1=="Women",], xvar="Year", yvar=c("protein","carbon", "fat"),
+                     options=list(isStacked='percent',width=800, height=500,
+                                  bar="{groupWidth:'80%'}",
+                                  chartArea= "{'width': '70%', 'height': '95%'}"))
+print(Bar)
+```
+</div>
