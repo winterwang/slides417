@@ -11,6 +11,12 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 assets      : {assets: ../../assets}
 license     : by-nc-sa
+github      : 
+  user: winterwang
+  repo: slides417
+  branch: "gh-pages"
+# download    : "winterwang.github.io/slides417-gh-pages.zip"
+
 ---
 
 ---
@@ -482,6 +488,19 @@ print(M2)
 ```
 </div>
 
+---
+## 食事摂取基準(2015)
+### 目的
+国民の**健康の保持・増進**を図る上で摂取することが望ましい**エネルギーと栄養素の量の基準を示す**ものである．
+### 対象
+**健康な**個人並びに健康な人を中心として構成されている集団
+### 栄養素の指標の目的と種類
+
+目的                         | 種類
+:---------------------------:|:-------------------------------------------------------------------------------------------:
+摂取不足の回避               | 推定平均必要量(EAR)，推奨量(DRA) <br>$\divideontimes$ 推定できない場合の代替指標：目安量(AI)
+過剰摂取による健康障害の回避 | 耐用上限量 (UL)
+生活習慣病の予防             | 目標量 (DG)
 
 
 --- &radio
@@ -527,7 +546,7 @@ print(M2)
 1. ◯[推奨量(RDA, recommended dietary allowance): 母集団のほとんど(97%~98%)が必要量を満たすと推定される1日の摂取量](http://ameblo.jp/peachf4/entry1.11949665641.html)
 1. ✗目安量(AI, adequate intake): 不足状態を示す人がほとんど観察されない（摂取されていない）量
 1. ✗耐容上限量(UL, tolerable upper intake level): 過剰摂取による健康障害に罹患しない最大限の量
-1. ✗[目標量(DG, tentative dietary goal for preventing life1.style related diseases): 生活習慣病の一時予防のために当面の目標とすべき摂取量<br>「不足」「過剰」のリスクとは異なり，生活習慣病のリスクを下げることを目的としたものである．図中には示していない．](http://www.kokushi.space/?p=788)
+1. ✗[目標量(DG, tentative dietary goal for preventing life style related diseases): 生活習慣病の一時予防のために当面の目標とすべき摂取量<br>「不足」「過剰」のリスクとは異なり，生活習慣病のリスクを下げることを目的としたものである．図中には示していない．](http://www.kokushi.space/?p=788)
 
 -- &radio
 
