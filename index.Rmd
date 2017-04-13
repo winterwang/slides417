@@ -16,9 +16,6 @@ github      :
   repo: slides417
   branch: "gh-pages"
 # download    : "winterwang.github.io/slides417-gh-pages.zip"
-
----
-
 ---
 ## 7割の医師が栄養学の重要性を実感
 ### - [医学部の栄養学講義についての調査](http://news.mynavi.jp/news/2012/05/22/069/)
