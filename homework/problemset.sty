@@ -1,0 +1,80 @@
+\def\fileversion{1.0}
+\def\filedate{2016/09/15}
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{problemset}[\filedate{} macros for homeworks]
+
+\RequirePackage{6046}
+
+\let\@course\@empty
+\let\@problem\@empty
+\let\@pageprefix\@empty
+
+\newcommand{\range}[2]{\{#1, \ldots, #2\}}
+
+\newcommand{\twopartdefmbox}[5]
+{
+    \left\{
+        \begin{array}{ll}
+            #2 & \mbox{#1 } #3 \\
+            #4 & \mbox{#1 } #5
+        \end{array}
+    \right.
+}
+
+\newcommand{\twopartdef}[4]
+{
+\twopartdefmbox{if}{#1}{#2}{#3}{#4}
+}
+
+\newcommand{\course}[1]{\def\@course{#1}}
+\newcommand{\problem}[1]{\def\@problem{#1}}
+\newcommand{\pageprefix}[1]{\def\@pageprefix{#1}}
+
+
+% Command to make the header box.
+\renewcommand{\header}{
+  \begin{center}
+    \hspace*{-0.25in}\framebox[7in]{
+      \vbox{
+        \hbox to 6.25in {\bf \large \@author \small \hfill  公衆衛生学・王　超辰　2017-04-17}
+        \vspace{1.2mm}
+        \hbox to 6.25in {\bf \Large \hfill \@course\ \@problemset\ \large \@problem\ \hfill}
+        \vspace{.8mm}
+        \hbox to 6.25in {\bf \large {\@collab} \tiny \hfill  スライドアドレス：https://winterwang.github.io/slides417}
+      }
+    }
+  \end{center}
+}
+
+% Use "{problem_name}-{problem_page}" numbering scheme
+\setcounter{page}{1}
+\renewcommand{\thepage}{
+  \ifx \@pageprefix \@empty
+    \@problem-\arabic{page}-
+  \else
+    \@pageprefix-\arabic{page}
+  \fi
+}
+
+
+\AtBeginDocument{
+  \ifx \@author \@empty
+    \@latexerr{You must use \noexpand\author{name} for a homework}
+  \fi
+  \ifx \@course \@empty
+    \@latexerr{You must use \noexpand\course{name} for a homework}
+  \fi
+  \ifx \@problemset \@empty
+    \@latexerr{You must use \noexpand\problemset{number} for a homework}
+  \fi
+  \ifx \@problem \@empty
+    \@latexerr{You must use \noexpand\problem{name} for a homework}
+  \fi
+  \ifx \@collab \@empty
+    \@latexerr{You must use \noexpand\collab{names or none} for a homework}
+  \fi
+  \thispagestyle{plain}
+  \lhead{\@author}
+  \rhead{\textbf{\@course\ PSet \@problemset\ Problem \@problem}}
+  \pagestyle{fancy}
+}

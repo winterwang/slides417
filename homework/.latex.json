@@ -1,0 +1,11 @@
+{
+  "projectPath": "/home/ccwang/Documents/homework-template-master",
+  "title": "LaTeX-Plus Project",
+  "root": "example.tex",
+  "program": "xelatex",
+  "latexmkOptions": "-bibtex -pdf -shell-escape",
+  "output": ".latex",
+  "openOutput": "true",
+  "postAction": "link",
+  "postPath": ""
+}
