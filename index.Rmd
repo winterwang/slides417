@@ -408,18 +408,44 @@ github      :
 - 1日の平均睡眠時間が６時間未満の割合が増加
   + 1日の平均睡眠時間が６時間未満の割合は，ここ数年で増加傾向にあり，睡眠の妨げになっていることは，男性では「仕事」，女性では「育児」「家事」（27頁，13頁）
 
---- &vcenter
+---
 <br>
 <div class="centered">
 <IMG SRC="img/balance.png" style = "width:880px;height:500px">
 </div>
 
---- &vcenter
+---
 <br>
 <div class="centered">
 <IMG SRC="img/gaisyoku.png" style = "width:880px;height:500px">
 </div>
 
+
+---
+
+<div class="centered">
+<IMG SRC="img/calcium.png" style = "width:700px;height:630px">
+</div>
+
+---
+
+<div class="centered">
+<IMG SRC="img/fiber.png" style = "width:700px;height:630px">
+</div>
+
+
+
+---
+<br>
+<div class="centered">
+<IMG SRC="img/passivesm.png" style = "width:880px;height:500px">
+</div>
+
+---
+<br>
+<div class="centered">
+<IMG SRC="img/slp.png" style = "width:880px;height:500px">
+</div>
 
 --- &radio
 
