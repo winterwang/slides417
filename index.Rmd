@@ -433,6 +433,12 @@ github      :
 <IMG SRC="img/fiber.png" style = "width:700px;height:630px">
 </div>
 
+---
+
+<div class="centered">
+<IMG SRC="img/K.png" style = "width:700px;height:630px">
+</div>
+
 
 
 ---
@@ -690,3 +696,14 @@ print(Bar)
 <br>
 $基礎代謝量(kcal/日)=\\基礎代謝基準値(kcal/kg体重/日)\times 基準体重(kg)$
 <img src="gif/calorie.gif" align="right" style = "width:170px;height:180px">
+
+--- &twocol
+# Homework <br>期限：4/21(金)まで(研究棟317)
+
+*** =left
+<br><br><br>
+![](gif/3_q.gif)
+
+*** =right
+<br><br>
+![](img/homework.png)
