@@ -127,26 +127,6 @@ github      :
 <br><br><br>
 ![](img/kaiketsu1.jpg)
 
-
---- &twocol
-## イギリス水兵のあだ名：[limey](http://eigo-kobako.blog.so-net.ne.jp/2013-05-27)<br>ライム果汁を飲んでいたから
-
-*** =left
-### 当時の医師が提案した治療法
-- 瀉血
-- 水銀剤
-- 塩水
-- 酢
-- 硫酸
-- 塩酸
-- モーゼル・ワイン　
-- 重労働　　などなど
-
-*** =right
-<br><br><br>
-![](gif/lemon.gif)
-
-
 ---
 ## リンドの実験
 <br>
@@ -170,6 +150,27 @@ github      :
 <strong>
 <font size="6" color="white">環境と食事という変数を変えてみただけ<br>人数はわずかだが，結果は明白<br>リンドは，ビタミン C の存在すら知らなかった<br>医療においては，治療の有効性を示すことが最優先</font>
 </strong>
+
+
+
+--- &twocol
+## イギリス水兵のあだ名：[limey](http://eigo-kobako.blog.so-net.ne.jp/2013-05-27)<br>ライム果汁を飲んでいたから
+
+*** =left
+### 当時の医師が提案した治療法
+- 瀉血
+- 水銀剤
+- 塩水
+- 酢
+- 硫酸
+- 塩酸
+- モーゼル・ワイン　
+- 重労働　　などなど
+
+*** =right
+<br><br><br>
+![](gif/lemon.gif)
+
 
 
 --- &twocol
