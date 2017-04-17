@@ -285,3 +285,18 @@ James Lindの名前，聞いたことある人？　「おそらく誰もいな�
 
 # P43
 食事摂取基準
+
+# P44
+国試問題
+
+# P45
+国試問題
+1. ◯推定平均必要量(EAR, estimated average requirement): 母集団の50%が必要量を満たすと推定される1日の摂取量
+1. ◯[推奨量(RDA, recommended dietary allowance): 母集団のほとんど(97%~98%)が必要量を満たすと推定される1日の摂取量](http://ameblo.jp/peachf4/entry1.11949665641.html)
+1. ✗目安量(AI, adequate intake): 不足状態を示す人がほとんど観察されない（摂取されていない）量
+1. ✗耐容上限量(UL, tolerable upper intake level): 過剰摂取による健康障害に罹患しない最大限の量
+1. ✗[目標量(DG, tentative dietary goal for preventing life style related diseases): 生活習慣病の一時予防のために当面の目標とすべき摂取量<br>「不足」「過剰」のリスクとは異なり，生活習慣病のリスクを下げることを目的としたものである．図中には示していない．](http://www.kokushi.space/?p=788)
+
+
+# P46
+指標の説明
