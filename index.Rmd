@@ -701,7 +701,8 @@ $基礎代謝量(kcal/日)=\\基礎代謝基準値(kcal/kg体重/日)\times 基�
 
 --- &twocol
 # Homework <br>期限：4/21(金)まで(研究棟~~317~~ **373**)
-
+# Answers:
+[download from here/ここからダウロード](https://github.com/winterwang/homeworkslides417/raw/master/homework/answers.pdf)
 *** =left
 <br><br><br>
 ![](gif/3_q.gif)
